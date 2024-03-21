@@ -1,0 +1,533 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+.hhr{
+    border-top: 8px solid rgb(35,35,35);
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+.netbg{
+    background-image: url("https://res.cloudinary.com/dk68i5lfk/image/upload/v1704074627/Bg_psydul.jpg");
+    height: 96vh;
+}
+
+.btns{
+    color: white;
+}
+
+.cont{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    padding: 30px 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    fill: red;
+}
+
+.navrighthalf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.langcon{
+    position: relative;
+}
+
+.langsym{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.language{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding: 10px 45px;
+    border-radius: 10px;
+}
+
+.signbtn{
+    background-color: rgb(229,9,20);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+@media (max-width:720px){
+
+    .netbg{
+        background-image: url("https://res.cloudinary.com/dk68i5lfk/image/upload/v1704074627/Bg_psydul.jpg");
+        height: 70vh;
+    }
+
+    .cont{
+        background-color: rgba(0,0,0,0.7);
+        height: 100%;
+        padding: 30px 10px;
+    }
+
+    .logo{
+        width: 100px;
+        fill: red;
+    }
+
+    .langcon{
+        border-radius: 30px;
+    }
+
+    .language{
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+        padding: 8px 30px;
+        border-radius: 10px;
+        width: 10px;
+    }
+
+    .signbtn{
+        margin: 0 10px;
+        padding: 5px 10px;
+    }
+
+}
+
+.biocont{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.biocont h1, .biocont p{
+    margin-bottom: 20px;
+}
+
+.emailcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    height: 50px;
+    background-color: rgba(0,0,0,0.4);
+    border: 3px solid red;
+    color: white;
+    padding: 0 10px;
+    width: 60vh;
+}
+
+.startbtn{
+    background-color: rgb(229,9,20);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+@media (max-width:720px){
+
+    .biocont{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10vh;
+    }
+    
+    .biocont h1, .biocont p{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .emailcont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .email{
+        height: 50px;
+        background-color: rgba(0,0,0,0.4);
+        border: 3px solid red;
+        color: white;
+        padding: 0 10px;
+        width: 55vh;
+        margin-bottom: 20px;
+    }
+    
+    .startbtn{
+        background-color: rgb(229,9,20);
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        border: none;
+    }
+
+}
+
+/* Bodysec 1 Starts here */ /* Bodysec 1 Starts here */ /* Bodysec 1 Starts here */ /* Bodysec 1 Starts here */ /* Bodysec 1 Starts here */
+
+.bodysec1{
+    color: white;
+    padding: 100px 100px;
+    align-items: center;
+}
+
+.bodysec1 .right-side{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bodysec1 video{
+    position: absolute;
+    left: 90px;
+    top: 20%;
+    z-index: -1;
+}
+
+@media (max-width:1080px){
+    .bodysec1{
+        color: white;
+        padding: 100px 50px;
+        align-items: center;        
+    }
+
+    .bodysec1 .right-side{
+    position: relative;
+}
+
+.bodysec1 img{
+height: 300px;
+}
+
+.bodysec1 video{
+    position: absolute;
+    left: 67px;
+    top: 20%;
+    z-index: -1;
+    height: 170px;
+}
+}
+
+@media (max-width:720px){
+    .bodysec1{
+        color: white;
+        padding: 100px 30px;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .bodysec1 .right-side{
+    position: relative;
+}
+
+
+}
+
+/* Bodysec 1 ends here */ /* Bodysec 1 ends here */ /* Bodysec 1 ends here */ /* Bodysec 1 ends here */ /* Bodysec 1 ends here */ /* Bodysec 1 ends here */
+/* Bodysec 2 Starts here */ /* Bodysec 2 Starts here */ /* Bodysec 2 Starts here */ /* Bodysec 2 Starts here */ /* Bodysec 2 Starts here */
+
+.bodysec2{
+    color: white;
+    padding:100px 100px;
+    align-items: center;
+}
+
+.bodysec2 .left-side{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.body2imgcon{
+    position: absolute;
+    background-color: black;
+    border: 2px solid white;
+    top: 330px;
+    left: 160px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.body2imgcontent{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 40px; 
+}
+
+.body2imgcontent p{
+    color: aqua;
+}
+
+.body2img{
+     height: 90px;
+}
+
+.downsym{
+    color: aqua;
+}
+
+@media (max-width:1080px){
+    .bodysec2{
+        color: white;
+        padding:100px 50px;
+        align-items: center;
+    }
+
+    .bodysec2 .left-side{
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .body2imgcon{
+        position: absolute;
+        background-color: black;
+        border: 2px solid white;
+        top: 330px;
+        left: 60px;
+        padding: 10px;
+        width: 350px;
+        border-radius: 10px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    .body2imgcontent{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 40px; 
+    }
+    
+    .body2imgcontent p{
+        color: aqua;
+    }
+    
+    .body2img{
+         height: 90px;
+    }
+    
+    .downsym{
+        color: aqua;
+    }
+
+}
+
+@media (max-width:720px){
+    .bodysec2{
+        color: white;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bodysec2img{
+        position: relative;
+        height: 350px;
+    }
+    
+    .body2imgcon{
+        position: absolute;
+        background-color: black;
+        border: 2px solid white;
+        top: 230px;
+        left: 100px;
+        padding: 10px;
+        width: 280px;
+        border-radius: 10px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        height: 80px;
+    }
+    
+    .body2imgcontent{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 30px;
+
+    }
+
+    .body2imgcontent h5{
+        font-size: 15px;
+    }
+    
+    .body2imgcontent p{
+        color: aqua;
+        font-size: 10px;
+    }
+    
+    .body2img{
+         height: 60px;
+    }
+    
+    .downsym{
+        color: aqua;
+    }
+
+}
+
+.bodysec2 .right-side{
+    position: relative;
+}
+
+
+/* Bodysec 2 ends here */ /* Bodysec 2 ends here */ /* Bodysec 2 ends here */ /* Bodysec 2 ends here */ /* Bodysec 2 ends here */ /* Bodysec 2 ends here */
+
+.bodysec3{
+    color: white;
+    padding: 100px 100px;
+    align-items: center;
+}
+
+.bodysec3 .right-side{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bodysec3 video{
+    position: absolute;
+    left: 130px;
+    top: 10%;
+    z-index: -1;
+    height: 230px;
+}
+
+@media (max-width:1080px){
+    .bodysec3{
+        color: white;
+        padding: 100px 50px;
+        align-items: center;        
+    }
+
+    .bodysec3 .right-side{
+    position: relative;
+}
+
+.bodysec3 img{
+height: 300px;
+}
+
+.bodysec3 video{
+    position: absolute;
+    left: 100px;
+    top: 10%;
+    z-index: -1;
+    height: 140px;
+}
+}
+
+@media (max-width:720px){
+    .bodysec3{
+        color: white;
+        padding: 100px 30px;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .bodysec3 .right-side{
+    position: relative;
+}
+
+.bodysec3 video{
+    position: absolute;
+    left: 90px;
+    top: 10%;
+    z-index: -1;
+    height: 140px;
+}
+
+
+}
+
+.bodysec4{
+    color: white;
+    padding: 100px 100px;
+    align-items: center;
+}
+
+@media (max-width:1080px){
+    .bodysec4{
+        color: white;
+        padding: 100px 50px;
+        align-items: center;        
+    }
+
+
+    .bodysec4 img{
+        height: 300px;
+    }
+
+.bodysec1 video{
+    position: absolute;
+    left: 67px;
+    top: 20%;
+    z-index: -1;
+    height: 170px;
+}
+}
+
+@media (max-width:720px){
+    .bodysec1{
+        color: white;
+        padding: 100px 30px;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .bodysec4 .right-side{
+    text-align: center;
+}
+
+
+}
